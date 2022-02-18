@@ -1,0 +1,17 @@
+  /* Start */
+  .white-color{color: white;}
+  #earth-section{
+    min-height: 600px;
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("/dist/earth-2.jpg");
+    background-color: #000;
+  }
+  #what-is-section{
+    min-height: 600px;
+  }
+  .rounded{
+    border-radius: 25px!important;
+  }
