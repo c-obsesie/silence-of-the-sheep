@@ -4,13 +4,18 @@
     min-height: 600px;
   
     background-size: cover;
-    background-repeat: no-repeat;
+
     background-position: center;
-    background-image: url("/dist/earth-2.jpg");
+    background-image: url("/dist/stele.png");
     background-color: #000;
   }
   #what-is-section{
     min-height: 600px;
+    background-size: cover;
+
+    background-position: center;
+    background-image: url("/dist/stele.png");
+    background-color: #000;
   }
   .rounded{
     border-radius: 25px!important;
