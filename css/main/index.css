@@ -16,5 +16,42 @@
   background-image: url("/dist/stele.png");
   background-color: #000; }
 
+body {
+  background-size: cover;
+  background-position: center;
+  background-image: url("/dist/stele.png");
+  background-color: #000; }
+
+#presale-section {
+  height: 900px;
+  background-size: contain;
+  margin-top: 150px;
+  background-repeat: round;
+  background-position: center;
+  background-image: url("/dist/moon.png");
+  background-color: #000; }
+
 .rounded {
   border-radius: 25px !important; }
+
+.btn-primary {
+  background-color: #1BADF3;
+  font: proxima-nova; }
+
+.btn-primary:hover {
+  background-color: #10b3ff;
+  font: proxima-nova; }
+
+.btn-secondary {
+  background-color: #E1C254; }
+
+.btn-secondary:hover {
+  background-color: #f0c529; }
+
+#roadmap-section {
+  height: 900px;
+  background-size: contain;
+  margin-top: 150px;
+  background-position: center;
+  background-image: url("/dist/marte-rosu.png");
+  background-color: #000; }
