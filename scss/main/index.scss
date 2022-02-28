@@ -26,12 +26,13 @@
     background-color: #000;
   }
   #presale-section{
-    height: 900px;
+    min-height: 900px;
     background-size: contain;
     margin-top: 150px;
     background-repeat:round;
-    background-position: center;
-    background-image: url("/dist/moon.png");
+    background-position: bottom;
+    background-image: url("/dist/luna.png");
+    background-repeat: no-repeat;
     background-color: #000;
   }
   .rounded{
@@ -57,11 +58,23 @@
     
   }
   #roadmap-section{
-    height: 900px;
+    min-height: 900px;
     background-size: contain;
     margin-top: 150px;
-    background-position: center;
-    background-image: url("/dist/marte-rosu.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url("/dist/rosu.png");
     background-color: #000;
+
+  }
+  #staking-section{
+    min-height: 900px;
+    background-size: contain;
+    margin-top: 150px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url("/dist/verde.png");
+    background-color: #000;
+
 
   }
