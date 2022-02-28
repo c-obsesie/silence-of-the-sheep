@@ -163,6 +163,9 @@ p {
   background-image: url("/dist/stele.png");
   background-color: #000; }
 
+.navbar {
+  z-index: 99; }
+
 #what-is-section {
   min-height: 600px;
   background-size: cover;
