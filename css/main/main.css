@@ -152,6 +152,10 @@ p {
 .font-size-23 {
   font-size: 23px; }
 
+.footer {
+  background-color: #1d1d35;
+  padding: 2rem 0; }
+
 /* Start */
 .white-color {
   color: white; }
