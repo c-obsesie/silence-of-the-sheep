@@ -156,5 +156,29 @@ p {
   background-color: rgba(52, 58, 64, 0.9) !important; }
 
 .footer {
-  background-color: #1d1d35;
+  background-color: rgba(52, 58, 64, 0.9) !important;
   padding: 2rem 0; }
+
+.cien {
+  background: transparent linear-gradient(135deg, #0693e3 0%, #9b51e0 100%) 0% 0% no-repeat padding-box;
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.green {
+  background: transparent inear-gradient(135deg, #7adcb4 0%, #00d082 100%) 0% 0% no-repeat padding-box;
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.orange {
+  background: transparent linear-gradient(135deg, #fcb900 0%, #ff6900 100%) 0% 0% no-repeat padding-box;
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.red {
+  background: transparent linear-gradient(135deg, #ff6900 0%, #cf2e2e 100%) 0% 0% no-repeat padding-box;
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }

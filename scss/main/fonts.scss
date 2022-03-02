@@ -188,6 +188,31 @@ p{
   ;
 }
 .footer{
-  background-color: #1d1d35;
+  background-color: rgba(52, 58, 64, 0.9)!important;
   padding: 2rem 0;
+}
+
+.cien{
+  background: transparent linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%) 0% 0% no-repeat padding-box;
+  background-clip: padding-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.green{
+  background: transparent inear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%) 0% 0% no-repeat padding-box;
+  background-clip: padding-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.orange{
+  background: transparent linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%) 0% 0% no-repeat padding-box;
+  background-clip: padding-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.red{
+  background: transparent linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%)0% 0% no-repeat padding-box;
+  background-clip: padding-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
