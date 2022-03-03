@@ -207,6 +207,12 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
+.green-gradient-2 {
+  background: transparent linear-gradient(135deg, #a4ffda 0%, #00d082 100%) 0% 0% no-repeat padding-box;
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
 .green-gradient-blue {
   background: linear-gradient(to right, #e0eafc, #cfdef3) 0% 0% no-repeat padding-box;
   background-clip: padding-box;
