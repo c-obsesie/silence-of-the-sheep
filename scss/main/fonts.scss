@@ -1,8 +1,14 @@
 @font-face {
-    font-family: "futura-bold";
-    src: url("../../assets/fonts/FuturaPTBold.otf");
+    font-family: proxima-nova;
+    src: url("../../assets/fonts/Inter-Medium.ttf");
   }
-
+  @font-face {
+    font-family: 'Courier New', Courier, monospace;
+    src: url("../../assets/fonts/Inter-Medium.ttf");
+  }
+  p,span{
+    font-family: 'Courier New', Courier, monospace!important;
+  }
 
   .font-size-81 {
     font-size: 81px;
