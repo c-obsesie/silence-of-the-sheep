@@ -1,13 +1,24 @@
 @font-face {
   font-family: proxima-nova;
-  src: url("../../assets/fonts/Inter-Medium.ttf"); }
+  src: url("../../dist/fonts/Inter-Medium.ttf"); }
 
 @font-face {
   font-family: 'Courier New', Courier, monospace;
-  src: url("../../assets/fonts/Inter-Medium.ttf"); }
+  src: url("../../dist/fonts/Inter-Medium.ttf"); }
+
+@font-face {
+  font-family: "danger";
+  src: url("../../dist/fonts/AnotherDanger.otf"); }
 
 p, span {
   font-family: "Courier New", Courier, monospace !important; }
+
+#earth-section h1 {
+  background: transparent linear-gradient(to right, #f85032, #e73827) 0% 0% no-repeat padding-box;
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "danger" !important; }
 
 .font-size-81 {
   font-size: 81px; }
