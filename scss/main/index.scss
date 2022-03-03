@@ -1,83 +1,98 @@
-  /* Start */
-  .white-color{color: white;}
-  #earth-section{
-    min-height: 600px;
-  
-    background-size: cover;
+/* Start */
+.white-color {
+  color: white;
+}
+#earth-section {
+  min-height: 600px;
 
-    background-position: center;
-    background-image: url("/dist/stele.png");
-    background-color: #000;
-  }
-  .navbar {
+  background-size: cover;
+
+  background-position: center;
+  background-image: url("/dist/stele.png");
+  background-color: #000;
+}
+.navbar {
   z-index: 99;
-  }
-  #what-is-section{
-    min-height: 600px;
-    background-size: cover;
+}
+#what-is-section {
+  min-height: 600px;
+  background-size: cover;
 
-    background-position: center;
-    background-image: url("/dist/stele.png");
-    background-color: #000;
-  }
-  body{
+  background-position: center;
+  background-image: url("/dist/stele.png");
+  background-color: #000;
+}
+body {
+  background-size: cover;
 
-    background-size: cover;
-
-    background-position: center;
-    background-image: url("/dist/stele.png");
-    background-color: #000;
+  background-position: center;
+  background-image: url("/dist/stele.png");
+  background-color: #000;
+}
+#presale-section {
+  min-height: 900px;
+  background-size: contain;
+  margin-top: 150px;
+  background-repeat: round;
+  background-position: bottom;
+  background-image: url("/dist/luna.png");
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+.rounded {
+  border-radius: 25px !important;
+}
+.btn-primary {
+  background-color: #1badf3;
+  font: proxima-nova;
+}
+.btn-primary:hover {
+  background-color: #10b3ff;
+  font: proxima-nova;
+}
+.btn-secondary {
+  background-color: #e1c254;
+}
+.btn-secondary:hover {
+  background-color: #f0c529;
+}
+.marte-bck {
+}
+#roadmap-section {
+  min-height: 900px;
+  background-size: contain;
+  margin-top: 150px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-image: url("/dist/rosu.png");
+  background-color: #000;
+}
+#staking-section {
+  min-height: 900px;
+  background-size: contain;
+  margin-top: 150px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-image: url("/dist/verde.png");
+  background-color: #000;
+}
+#team-section {
+  background-color: black;
+  .team-container {
+    max-width: 900px !important;
+    margin: auto;
   }
-  #presale-section{
-    min-height: 900px;
-    background-size: contain;
-    margin-top: 150px;
-    background-repeat:round;
-    background-position: bottom;
-    background-image: url("/dist/luna.png");
-    background-repeat: no-repeat;
-    background-color: #000;
+}
+@media only screen and (max-width: 600px) {
+  .list-item {
+    flex-wrap: wrap;
   }
-  .rounded{
-    border-radius: 25px!important;
+}
+@media only screen and (max-width: 767px) {
+  #earth-section {
+    text-align: center;
+    .w-75 {
+      width: 100% !important;
+    }
   }
-  .btn-primary{
-    background-color: #1BADF3;
-    font:proxima-nova;
-
-  }
-  .btn-primary:hover{
-    background-color: #10b3ff;
-    font:proxima-nova;
-
-  }
-  .btn-secondary{
-    background-color: #E1C254;
-  }
-  .btn-secondary:hover{
-    background-color: #f0c529;
-  }
-  .marte-bck{
-    
-  }
-  #roadmap-section{
-    min-height: 900px;
-    background-size: contain;
-    margin-top: 150px;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-image: url("/dist/rosu.png");
-    background-color: #000;
-
-  }
-  #staking-section{
-    min-height: 900px;
-    background-size: contain;
-    margin-top: 150px;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-image: url("/dist/verde.png");
-    background-color: #000;
-
-
-  }
+}

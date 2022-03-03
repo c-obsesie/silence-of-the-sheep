@@ -39,7 +39,7 @@ body {
   border-radius: 25px !important; }
 
 .btn-primary {
-  background-color: #1BADF3;
+  background-color: #1badf3;
   font: proxima-nova; }
 
 .btn-primary:hover {
@@ -47,7 +47,7 @@ body {
   font: proxima-nova; }
 
 .btn-secondary {
-  background-color: #E1C254; }
+  background-color: #e1c254; }
 
 .btn-secondary:hover {
   background-color: #f0c529; }
@@ -69,3 +69,19 @@ body {
   background-repeat: no-repeat;
   background-image: url("/dist/verde.png");
   background-color: #000; }
+
+#team-section {
+  background-color: black; }
+  #team-section .team-container {
+    max-width: 900px !important;
+    margin: auto; }
+
+@media only screen and (max-width: 600px) {
+  .list-item {
+    flex-wrap: wrap; } }
+
+@media only screen and (max-width: 767px) {
+  #earth-section {
+    text-align: center; }
+    #earth-section .w-75 {
+      width: 100% !important; } }

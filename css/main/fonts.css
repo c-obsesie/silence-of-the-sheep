@@ -182,3 +182,39 @@ p {
   background-clip: padding-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
+
+.green-gradient {
+  background: transparent linear-gradient(135deg, #7adcb4 0%, #00d082 100%) 0% 0% no-repeat padding-box;
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.green-gradient-blue {
+  background: linear-gradient(to right, #e0eafc, #cfdef3) 0% 0% no-repeat padding-box;
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.pale-ocean {
+  background: transparent linear-gradient(135deg, #eeeeee 0%, #a9b8c3 100%) 0% 0% no-repeat padding-box;
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.stacking-blue {
+  background: transparent linear-gradient(to right, #0575e6, #021b79) 0% 0% no-repeat padding-box;
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.roadmap-red {
+  background: transparent linear-gradient(to right, #f85032, #e73827) 0% 0% no-repeat padding-box;
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.team-red {
+  background: transparent linear-gradient(to right, #ff9966, #ff5e62) 0% 0% no-repeat padding-box;
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
