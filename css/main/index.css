@@ -32,8 +32,7 @@ body {
   background-repeat: round;
   background-position: bottom;
   background-image: url("/dist/luna.png");
-  background-repeat: no-repeat;
-  background-color: #000; }
+  background-repeat: no-repeat; }
 
 .rounded {
   border-radius: 25px !important; }
@@ -58,8 +57,7 @@ body {
   margin-top: 150px;
   background-position: bottom;
   background-repeat: no-repeat;
-  background-image: url("/dist/rosu.png");
-  background-color: #000; }
+  background-image: url("/dist/rosu.png"); }
 
 #staking-section {
   min-height: 900px;
@@ -67,8 +65,7 @@ body {
   margin-top: 150px;
   background-position: bottom;
   background-repeat: no-repeat;
-  background-image: url("/dist/verde.png");
-  background-color: #000; }
+  background-image: url("/dist/verde.png"); }
 
 #team-section {
   background-color: black; }
