@@ -327,3 +327,6 @@ body {
     text-align: center; }
     #earth-section .w-75 {
       width: 100% !important; } }
+
+.navbar-toggler {
+  border: none !important; }
