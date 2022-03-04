@@ -243,6 +243,9 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
+.nav-link:focus, .nav-link:hover {
+  color: #e73827; }
+
 /* Start */
 .white-color {
   color: white; }

@@ -63,15 +63,21 @@
       <div class="collapse navbar-collapse " id="navbarNav">
         <div class="d-flex justify-content-between align-content-center w-100">
           <div class="d-flex flex-md-row flex-column">
-            <a class="nav-item nav-link white-color" href="#what-is-section">Presale</a>
-            <a class="nav-item nav-link white-color" href="#presale-section">Our story</a>
+            <a class="nav-item nav-link white-color font-pnr" href="#what-is-section">Presale</a>
+            <a class="nav-item nav-link white-color font-pnr" href="#presale-section">Our story</a>
 
-            <a class="nav-item nav-link white-color" href="#roadmap-section">Roadmap</a>
-            <a class="nav-item nav-link white-color" href="#staking-section">Staking</a>
+            <a class="nav-item nav-link white-color font-pnr" href="#roadmap-section">Roadmap</a>
+            <a class="nav-item nav-link white-color font-pnr" href="#staking-section">Staking</a>
+            <a class="nav-item nav-link white-color font-pnr" href="#team-section">Team</a>
+            <a class="nav-item nav-link white-color font-pnr" >
+              <div type="button" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Coming Soon">
+                $MLK 🥛
+              </div>
+           </a>
             <div class="d-md-none d-flex">
-              <a class="mx-1 nav-item nav-link white-color" href="https://www.instagram.com/silenceofthesheep.nft/"
+              <a class="mx-1 nav-item nav-link white-color font-pnr" href="https://www.instagram.com/silenceofthesheep.nft/"
                 target="_blank"> <img src="./dist/instagram.svg" alt=""></a>
-              <a class="mx-1 nav-item nav-link white-color" href="https://discord.gg/UzxNJ4Yj" target="_blank"> <img
+              <a class="mx-1 nav-item nav-link white-color font-pnr" href="https://discord.gg/UzxNJ4Yj" target="_blank"> <img
                   src="./dist/discord.svg" style="width: 25px;" alt=""></a>
 
             </div>
@@ -181,7 +187,7 @@
                 <p class="">
 
                   After the minting process is over, the user will be able to stake NFT and in return they will receive
-                  a token (named "$Milk") that allows them to mint their own NFT's with no code on $Milk Platform.
+                  a token (named "Milk" or $MLK 🥛) that allows them to mint their own NFT's with no code on $Milk Platform.
 
                 </p>
               </div>
@@ -236,7 +242,7 @@
               <div class="contaienr-right">
                 <h4 class="font-pnb">Phase 3 - Utility</h4>
                 <p class="">In this step, we will begin to create a staking platform that will allow users to stack
-                  their NFTs and receive $MLK tokens in exchange. $MKL can be exchanged with other cryptocurrencies for
+                  their NFTs and receive <span style="white-space: pre;">$MLK 🥛</span> token in exchange. $MKL can be exchanged with other cryptocurrencies for
                   profit, or used to create NFTs on our own platform with NO CODE.
 
                 </p>
@@ -249,7 +255,7 @@
                 <p class="">The design of our third phase is to bring sheep to the <strong
                     class="roadmap-red">METAVERSE</strong> and games. Therefore, we encourage developers to include our
                   unique design in popular games such as SandBox.io, the goal being that you can see the cute NFT sheep
-                  walking around the 3D worlds, while you earn some $MLK at the same time.
+                  walking around the 3D worlds, while you earn some $MLK 🥛 at the same time.
                 </p>
               </div>
             </div>
@@ -269,7 +275,7 @@
           <div class="m-auto white-color">
             <h1 class="stacking-blue">Staking</h1>
             <p>The future of art is coming in the form of virtual NFTs. Once you stake your NFT, you will get a staking
-              income. With this token, you will be able to mint your own collection into the blockchain without needing
+              income ($MLK 🥛 ). With this token, you will be able to mint your own collection into the blockchain without needing
               any coding skills.</p>
             <strong>More details are coming soon...</strong>
 
@@ -364,6 +370,11 @@
         alert("Wes Wayahe Bro :)");
       });
     });
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
   </script>
 
 </body>

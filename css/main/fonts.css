@@ -242,3 +242,6 @@ p {
   background-clip: padding-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
+
+.nav-link:focus, .nav-link:hover {
+  color: #e73827; }

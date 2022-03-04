@@ -292,7 +292,9 @@ $vivid-purple: #9b51e0;
 -webkit-text-fill-color: transparent;
 
 }
-
+.nav-link:focus, .nav-link:hover {
+  color: #e73827;
+}
 $gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);
 $gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);
 $gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);
