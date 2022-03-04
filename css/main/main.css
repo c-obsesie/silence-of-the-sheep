@@ -322,7 +322,7 @@ body {
     margin: auto; }
 
 @media only screen and (max-width: 600px) {
-  .list-item {
+  #presale-section .list-item {
     flex-wrap: wrap; } }
 
 @media only screen and (max-width: 767px) {
