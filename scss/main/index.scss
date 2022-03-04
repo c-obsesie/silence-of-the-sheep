@@ -32,10 +32,12 @@ body {
 #presale-section {
   min-height: 900px;
   background-size: contain;
-  margin-top: 150px;
+  // margin-top: 150px;
   background-repeat: round;
   background-position: bottom;
-  background-image: url("/dist/luna.png");
+  background-image: url("/dist/verde.png");
+
+
   background-repeat: no-repeat;
   // background-color: #000;
 }
@@ -64,8 +66,8 @@ body {
   margin-top: 150px;
   background-position: bottom;
   background-repeat: no-repeat;
-  background-image: url("/dist/rosu.png");
   // background-color: #000;
+  background-image: url("/dist/luna.png");
 }
 #staking-section {
   min-height: 900px;
@@ -73,7 +75,8 @@ body {
   margin-top: 150px;
   background-position: bottom;
   background-repeat: no-repeat;
-  background-image: url("/dist/verde.png");
+  background-image: url("/dist/rosu.png");
+
   // background-color: #000;
 }
 #team-section {
