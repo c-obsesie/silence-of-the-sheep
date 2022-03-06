@@ -259,6 +259,9 @@ p {
 .navbar {
   z-index: 99; }
 
+section {
+  overflow: hidden !important; }
+
 #what-is-section {
   min-height: 600px;
   background-position: center;
