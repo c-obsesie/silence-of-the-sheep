@@ -252,9 +252,8 @@ p {
 
 #earth-section {
   min-height: 600px;
-  background-size: cover;
   background-position: center;
-  background-image: url("/dist/stele.png");
+  background-image: url("/dist/stars-2.png");
   background-color: #000; }
 
 .navbar {
@@ -262,15 +261,13 @@ p {
 
 #what-is-section {
   min-height: 600px;
-  background-size: cover;
   background-position: center;
-  background-image: url("/dist/stele.png");
+  background-image: url("/dist/stars-2.png");
   background-color: #000; }
 
 body {
-  background-size: cover;
   background-position: center;
-  background-image: url("/dist/stele.png");
+  background-image: url("/dist/stars-2.png");
   background-color: #000; }
 
 #presale-section {
